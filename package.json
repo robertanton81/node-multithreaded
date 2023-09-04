@@ -1,0 +1,21 @@
+{
+  "name": "clustering",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "start:cluster-single": "node clustering/singleThread.js",
+    "start:cluster-multi": "node clustering/multiThread.js",
+    "start:workers": "node worker-threads/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fastify": "^4.22.2",
+    "typescript": "^5.2.2"
+  },
+  "devDependencies": {
+    "prettier": "^3.0.3"
+  }
+}
